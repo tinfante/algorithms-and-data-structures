@@ -1,7 +1,5 @@
 # Factorial
 
-# Factorial
-
 Differenet solutions to calculating n!, a number's factorial.
 
 
