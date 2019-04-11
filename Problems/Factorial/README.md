@@ -1,6 +1,6 @@
 # Factorial
 
-Differenet solutions to calculating n!, a number's factorial.
+Different solutions to calculating n!, a number's factorial.
 
 
 ## Clojure
