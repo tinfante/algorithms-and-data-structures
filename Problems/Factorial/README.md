@@ -1,7 +1,10 @@
 # Factorial
 
+<<<<<<< HEAD
 # Factorial
 
+=======
+>>>>>>> 27e9aa87a80d3532c16c6690ed8c50559ee46592
 Different solutions to calculating n!, a number's factorial.
 
 
