@@ -2,7 +2,7 @@
 
 # Factorial
 
-Differenet solutions to calculating n!, a number's factorial.
+Different solutions to calculating n!, a number's factorial.
 
 
 ## Clojure
@@ -16,7 +16,7 @@ TODO: tail-optimized recursive solution (no stack overflow).
 Functional solution.
 
 
-## Javascript
+## JavaScript
 
 The first solution is interesting in that it replaces recursion with an
 explicit stack variable. It doesn't cause stack overflow like the second
