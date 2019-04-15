@@ -101,22 +101,27 @@ function get(index) {
     }
 }
 
-// TODO: No funciona si queda un item en la lista.
+
 function remove(index) {
     var node = this.get(index);
-    if (node.prev) {
-        node.prev.next = node.next;
+    // list has only 1 element
+    if (this.size == 1) {
+        this.head = null;
+        this.tail = null;
     }
-    else {
-        node.next.prev = null;
+    // element is head
+    else if (!node.prev) {
         this.head = node.next;
+        node.next.prev = null;
     }
-    if (node.next) {
-        node.next.prev = node.prev;
+    // element is tail
+    else if (!node.next) {
+        this.tail = node.prev;
+        node.prev.next = null;
     }
     else {
-        node.prev.next = null;
-        this.tail = node.prev;
+        node.prev.next = node.next;
+        node.next.prev = node.prev;
     }
     --this.size;
     return node;
