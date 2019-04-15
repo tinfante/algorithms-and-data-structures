@@ -24,7 +24,7 @@ function DoublyLinkedList() {
 
 function append(value) {
     var newNode = new Node(value);
-    if (this.head == null) {
+    if (!this.head) {
         this.head = newNode;
         this.tail = newNode;
     } else {
@@ -39,7 +39,7 @@ function append(value) {
 
 function prepend(value) {
     var newNode = new Node(value);
-    if (this.head == null) {
+    if (!this.head) {
         this.head = newNode;
         this.tail = newNode;
     } else {
@@ -55,7 +55,7 @@ function prepend(value) {
 function toString() {
     var values = [];
     var currNode = this.head;
-    while (currNode != null) {
+    while (currNode) {
         values.push(currNode.data.toString());
         currNode = currNode.next;
     }
@@ -65,7 +65,7 @@ function toString() {
 
 function find(value) {
     var currNode = this.head;
-    while (currNode.data != value) {
+    while (currNode.data !== value) {
         currNode = currNode.next;
         if (!currNode) {
             break;
