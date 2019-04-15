@@ -7,7 +7,7 @@ It's very easy to implement a stack and a queue with a linked list.
 A singly linked list. `append`, `prepend`,`remove` and `__length__` methods are
 all O(1), while `__setitem__`, `__getitem__` and `__repr__` are O(*n*).
 
-# JavaScript
+## JavaScript
 
 A doubly linked list, modified and extended from McMillan, *Data Structures and Algorithms with JavaScripp*, pp. 81-85.
 
