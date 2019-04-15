@@ -15,6 +15,7 @@ function DoublyLinkedList() {
     this.append = append;
     this.prepend = prepend;
     this.toString = toString;
+    this.find = find;
     this.get = get;
     this.remove = remove;
     this.insert = insert;
@@ -62,10 +63,13 @@ function toString() {
 }
 
 
-function get(value) {
+function find(value) {
     var currNode = this.head;
     while (currNode.data != value) {
         currNode = currNode.next;
+        if (!currNode) {
+            break;
+        }
     }
     return currNode;
 }
