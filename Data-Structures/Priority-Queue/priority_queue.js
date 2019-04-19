@@ -4,7 +4,7 @@ function priorityQueue() {
     this.queue = [];
     this.enqueue = function (value) {
         return this.queue.push(value);
-    }
+    };
     this.dequeue = function () {
         var outp = null;
         if (this.queue.length > 1) {
@@ -21,5 +21,5 @@ function priorityQueue() {
             outp = this.queue.pop();
         }
         return outp;
-    }
+    };
 }
