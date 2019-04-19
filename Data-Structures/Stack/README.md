@@ -16,6 +16,14 @@ as it felt wrong to overwrite them. Raising over- and underflow
 errors is also only meant to be illustrative since IndexErrors would happen
 anway.
 
+Python also has `collections.dequeue`, which is optimized for inserting
+and removing items from the beginning and the end of the list.
+
+## JavaScript
+
+JavaScript already has `.pop()` and `.push()` methods for arrays. Instead I
+used indexing.
+
 ##### References
 
 * Cormen, et al., *Introduction to Algorithms*, Third Ed., MIT press, 2009, pp. 232-234.
