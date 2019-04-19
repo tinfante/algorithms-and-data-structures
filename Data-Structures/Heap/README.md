@@ -38,7 +38,8 @@ property is maintained. `maxHeapify()` is top-down (sinks).
 
 ## Python
 
-See Sorting/Heap-Sort/. Also a max heap that that does sinking. The only major
+See (Sorting/Heap-Sort/)[https://github.com/tinfante/algorithms-and-data-structures/tree/master/Sorting/Heap-Sort].
+Also a max heap that that does sinking. The only major
 difference is the `heap_sort` function. All that does is iterate over every
 index in reverse, swapping the first array element (guaranteed to be
 the max value in the heap) for the last array element. It then decrements the
