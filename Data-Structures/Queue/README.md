@@ -5,7 +5,7 @@ FIFO
 ## Python
 
 Very basic implementation, queue is dynamically sized like the underlying
-Python ´´´list´´´. Naturally, it would be better to use ´´´collections.dequeue´´´
+Python `list`. Naturally, it would be better to use `collections.dequeue`
 which is optimized for stack and queue operations.
 
 ##### References
