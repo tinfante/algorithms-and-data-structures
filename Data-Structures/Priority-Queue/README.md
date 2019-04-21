@@ -5,7 +5,7 @@ data structures. Using arrays (and linked lists) there are two alternatives:
 keeping a sorted array and inserting a new item in its correct position,
 or searching for the maximum value when dequeuing an item. Either the
 insert or remove operation might take N. Using a heap data stucture, both
-operations are guaranteed to be fast. 
+operations are guaranteed to be fast.
 
 | Data Structure  | Insert max   | Remove max |
 |:---------------:|:------------:|:----------:|
@@ -16,6 +16,14 @@ operations are guaranteed to be fast.
 ## JavaScript
 
 A lazy (search for max when dequeuing) unordered array implementation.
+
+## Clojure
+
+A functional implementation of a priority queue that uses a heap. Does top-down
+reheapify (sink). A min priority queue by default, but a comparison function
+different to `<=` can be used. This also means that the queue can be made of
+and process elements like `{:name <patien name> :code <urgency code>}` with a
+comparison function like `(fn [x y] (>= (:code x) (:code y)))`.
 
 ##### References
 
