@@ -11,3 +11,8 @@ second and third add memoization to that solution. The fourth is an iterative
 solution, so it doesn't cause stack overflows. The fifth and last one just
 makes the iterative solution into a generator so that the whole sequence can be
 returned.
+
+## Clojure
+
+Here, to avoid stack overflows, instead of transforming recursion to a loop,
+tail recursion is used.
