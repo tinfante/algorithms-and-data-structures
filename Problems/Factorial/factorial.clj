@@ -1,6 +1,4 @@
-(ns factorial
-    (:gen-class)
-    )
+(ns factorial)
 
 
 (defn factorial

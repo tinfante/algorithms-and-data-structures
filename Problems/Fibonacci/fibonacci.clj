@@ -1,6 +1,4 @@
-(ns fibonacci
-  (:gen-class)
-  )
+(ns fibonacci)
 
 
 (defn fib [n]
