@@ -1,7 +1,8 @@
 # Fibonacci
 
-Different solutions for the Fibonacci sequence. Note that the recursive
-solutions decrease n to 0, while the iterative solutions increase 0 to n.
+Different solutions for the Fibonacci sequence. Note that the simple recursive
+solutions decrease n to 0, while the iterative and tail-recursive solutions
+increase 0 to n.
 
 
 ## Python
