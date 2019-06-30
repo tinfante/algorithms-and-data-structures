@@ -1,5 +1,4 @@
-(ns priority-queue
-    (:gen-class))
+(ns priority-queue)
 
 
 (defn swap-nodes [v i1 i2]

@@ -1,6 +1,4 @@
-(ns counting-sort
-  (:gen-class)
-  )
+(ns counting-sort)
 
 
 (defn counting-sort-1 [a mn mx]

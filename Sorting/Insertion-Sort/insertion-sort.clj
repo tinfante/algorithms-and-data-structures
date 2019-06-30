@@ -1,6 +1,4 @@
-(ns insertion-sort
-  (:gen-class)
-  )
+(ns insertion-sort)
 
 
 (defn insert

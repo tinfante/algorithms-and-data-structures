@@ -1,6 +1,4 @@
-(ns merge-sort
-  (:gen-class)
-  )
+(ns merge-sort)
 
 
 (defn -merge [seq1 seq2]
