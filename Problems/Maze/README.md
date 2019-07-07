@@ -3,7 +3,7 @@
 Comment/uncomment lines 97-98 for depth-first or breadth-first.
 
 Uncomment line 116 to save frames. Then, in the `frames/` directory run
-`ffmpeg -i %04d.png output.gif`.
+`ffmpeg -i %04d.png output.gif` to make an animated gif.
 
 With a sparseness value of 0.2 it's likely that there is a path between the
 starting position and the goal.
