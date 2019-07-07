@@ -20,4 +20,4 @@ positions were switched.
 
 ## Breadth-first
 
-![Breadth-first Random Maze](https://github.com/tinfante/algorithm-and-data-structures/blob/master/Problems/Maze/breadth-first.gif)
+![Breadth-first Random Maze](https://github.com/tinfante/algorithms-and-data-structures/blob/master/Problems/Maze/breadth-first.gif)
